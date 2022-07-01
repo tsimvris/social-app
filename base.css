@@ -13,5 +13,5 @@ body {
   background-color: var(--dark-black);
   color: var(--social-white);
   font-family: "Poppins", sans-serif;
-  width: 375px;
+  _width: 375px;
 }

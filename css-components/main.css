@@ -1,0 +1,12 @@
+.stories {
+  display: flex;
+}
+
+.stories-item {
+  max-height: 10px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+}

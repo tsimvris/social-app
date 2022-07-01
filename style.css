@@ -3,3 +3,8 @@
 @import "./css-components/search-bar.css";
 @import "./css-components/main.css";
 @import "./css-components/navbar.css";
+
+body {
+  background-color: var(--dark-black);
+  color: var(--social-white);
+}

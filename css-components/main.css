@@ -67,6 +67,9 @@
   overflow-x: scroll;
   gap: 20px;
 }
+.post-content::-webkit-scrollbar {
+  display: none;
+}
 .post-button {
   width: 24px;
   height: 24px;

@@ -7,6 +7,9 @@
   overflow-x: scroll;
   margin: 0 24px 24px 24px;
 }
+.stories::-webkit-scrollbar {
+  display: none;
+}
 
 .stories--item {
   display: flex;

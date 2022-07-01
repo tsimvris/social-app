@@ -1,4 +1,5 @@
 @import "./stories.css";
+@import "./navbar.css";
 
 .newsfeed-wrapper {
   width: 375px;
@@ -87,4 +88,5 @@ span {
 .post-image img {
   min-width: 300px;
   height: 180px;
+  border-radius: 16px;
 }

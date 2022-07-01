@@ -1,4 +1,5 @@
 @import "./stories.css";
+
 .newsfeed-wrapper {
   width: 375px;
   margin: 0 24px;
@@ -18,7 +19,16 @@
   margin-left: 8px;
 }
 .post-wrapper {
+  _border-top: 2px solid var(--gray);
+  padding: 24px 0 24px 0;
+  _border-bottom: 2px solid var(--gray);
   margin-bottom: 50px;
+}
+.trenner {
+  width: auto;
+  background-color: red;
+  height: 2px;
+  z-index: 20;
 }
 .post-header-left {
   display: flex;

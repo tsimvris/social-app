@@ -1,16 +1,17 @@
 .stories {
-  padding: 24px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   height: 145px;
-  width: 330px;
-  margin: 27px 24px 24px 8px;
+  align-items: center;
+  gap: 12px;
+  width: 327px;
+  overflow: hidden;
+  overflow-x: scroll;
 }
 
 .stories--item {
   display: flex;
   flex-direction: column;
-  margin: 0 12px;
   position: relative;
 }
 

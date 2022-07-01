@@ -7,4 +7,5 @@
 body {
   background-color: var(--dark-black);
   color: var(--social-white);
+  font-family: "Poppins", sans-serif;
 }

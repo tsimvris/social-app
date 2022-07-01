@@ -6,7 +6,7 @@
   --light-gray: #727477;
   --social-pink: #f62e8e;
   --social-blue: #2e8af6;
-  --gradient: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
+  --gradient: (linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%));
 }
 
 body {

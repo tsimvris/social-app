@@ -8,10 +8,23 @@
 .stories--item {
   display: flex;
   flex-direction: column;
+  margin: 0 12px;
+  position: relative;
 }
 
 .content {
   height: 140px;
   width: 100px;
   border-radius: 16px;
+}
+.content-creator {
+  position: absolute;
+  bottom: 8px;
+  left: 34px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 2px solid black;
+  outline: 2px solid #f62e8e;
+  /* GRADIENT FRAGEN */
 }

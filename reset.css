@@ -122,13 +122,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-:root {
-  --dark-black: #181a1c;
-  --pure-black: black;
-  --social-white: #fff;
-  --gray: #323436;
-  --light-gray: #727477;
-  --social-pink: #f62e8e;
-  --social-blue: #2e8af6;
-  --gradient: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
-}

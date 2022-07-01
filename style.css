@@ -1,1 +1,5 @@
 @import "./reset.css";
+@import "./css-components/header.css";
+@import "./css-components/search-bar.css";
+@import "./css-components/main.css";
+@import "./css-components/navbar.css";

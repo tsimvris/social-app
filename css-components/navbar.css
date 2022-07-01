@@ -1,0 +1,20 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 88px;
+  width: 375px;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.create-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
+  border-radius: 32px;
+}

@@ -2,7 +2,6 @@ header {
   display: flex;
   justify-content: space-between;
   height: 32px;
-  width: 375px;
   align-items: center;
   margin: 60px 24px 27px 24px;
 }

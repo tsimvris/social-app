@@ -1,188 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Social App</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <header>
-      <h1>Good Morning, Alex.</h1>
-      <a>
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z"
-            stroke="#fff"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-      </a>
-    </header>
-    <main>
-      <section class="stories">
-        <article class="stories--item">
-          <img
-            src="https://source.unsplash.com/random?beach"
-            alt=""
-            class="content"
-          />
-          <img
-            src="https://source.unsplash.com/random?people"
-            alt=""
-            class="content-creator"
-          />
-        </article>
-        <article class="stories--item">
-          <img
-            src="https://source.unsplash.com/random?beach"
-            alt=""
-            class="content"
-          />
-          <img
-            src="https://source.unsplash.com/random?people"
-            alt=""
-            class="content-creator"
-          />
-        </article>
-        <article class="stories--item">
-          <img
-            src="https://source.unsplash.com/random?beach"
-            alt=""
-            class="content"
-          />
-          <img
-            src="https://source.unsplash.com/random?people¨"
-            alt=""
-            class="content-creator"
-          />
-        </article>
-      </section>
-      <section class="newsfeed-wrapper">
-        <article class="post-wrapper">
-          <div class="post-header">
-            <div class="post-header-left">
-              <img
-                class="profile-pic"
-                src="https://source.unsplash.com/random?people"
-                alt="post creator"
-              />
-              <div class="post-creator">
-                <h2 class="creator-name">Jacob Washington</h2>
-                <p class="post-time">20m ago</p>
-              </div>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+</head>
 
-            <a class="post-options">
-              <img src="/assets/icons/Dots Vertical.svg" alt="post options" />
-            </a>
-          </div>
-          <p class="post-content post-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
-            quae sed inventore ipsum cupiditate ea esse dolore aliquid magni
-            dolorum.
-          </p>
-          <div class="post-reactions">
-            <div class="post-actions">
-              <button class="post-like-button">
-                <img class="post-like" src="./assets/icons/Like.svg" alt="" />
-              </button>
-              <button class="post-comment-button">
-                <img
-                  class="post-comment"
-                  src="./assets/icons/Comment.svg"
-                  alt=""
-                />
-              </button>
-              <button class="post-share-button">
-                <img class="post-share" src="./assets/icons/Share.svg" alt="" />
-              </button>
-            </div>
-            <button class="post-bookmark-button">
-              <img
-                class="post-bookmark"
-                src="./assets/icons/Bookmark.svg"
-                alt=""
-              />
-            </button>
-          </div>
-        </article>
-        <article class="post-wrapper">
-          <div class="post-header">
+<body>
+  <header>
+    <h1>Good Morning, Alex.</h1>
+    <a>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z"
+          stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </a>
+  </header>
+  <main>
+    <section class="stories">
+      <article class="stories--item">
+        <img src="https://source.unsplash.com/random?beach" alt="" class="content" />
+        <img src="https://source.unsplash.com/random?people" alt="" class="content-creator" />
+      </article>
+      <article class="stories--item">
+        <img src="https://source.unsplash.com/random?beach" alt="" class="content" />
+        <img src="https://source.unsplash.com/random?people" alt="" class="content-creator" />
+      </article>
+      <article class="stories--item">
+        <img src="https://source.unsplash.com/random?beach" alt="" class="content" />
+        <img src="https://source.unsplash.com/random?people¨" alt="" class="content-creator" />
+      </article>
+    </section>
+    <section class="newsfeed-wrapper">
+      <article class="post-wrapper">
+        <div class="post-header">
+          <div class="post-header-left">
+            <img class="profile-pic" src="https://source.unsplash.com/random?people" alt="post creator" />
             <div class="post-creator">
-              <img
-                src="https://source.unsplash.com/random?people"
-                alt="post creator"
-              />
-              <h2 class="creator-name">Kat Williams</h2>
-              <p class="post-time">1h ago</p>
+              <h2 class="creator-name">Jacob Washington</h2>
+              <p class="post-time">20m ago</p>
             </div>
-            <button class="post-options">
-              <img src="/assets/icons/Dots Vertical.svg" alt="post options" />
+          </div>
+
+          <a class="post-options">
+            <img src="/assets/icons/Dots Vertical.svg" alt="post options" />
+          </a>
+        </div>
+        <p class="post-content post-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+          quae sed inventore ipsum cupiditate ea esse dolore aliquid magni
+          dolorum.
+        </p>
+        <div class="post-reactions">
+          <div class="post-actions">
+            <button class="post-like-button">
+              <img class="post-like" src="./assets/icons/Like.svg" alt="" />
+            </button>
+            <button class="post-comment-button">
+              <img class="post-comment" src="./assets/icons/Comment.svg" alt="" />
+            </button>
+            <button class="post-share-button">
+              <img class="post-share" src="./assets/icons/Share.svg" alt="" />
             </button>
           </div>
-          <p class="post-content post-image">
-            <img src="https://source.unsplash.com/random" alt="" />
-          </p>
-          <div class="post-reactions">
-            <div class="post-actions">
-              <button class="post-like-button">
-                <img class="post-like" src="./assets/icons/Like.svg" alt="" />
-              </button>
-              <button class="post-comment-button">
-                <img
-                  class="post-comment"
-                  src="./assets/icons/Comment.svg"
-                  alt=""
-                />
-              </button>
-              <button class="post-share-button">
-                <img class="post-share" src="./assets/icons/Share.svg" alt="" />
-              </button>
-            </div>
-            <button class="post-bookmark-button">
-              <img
-                class="post-bookmark"
-                src="./assets/icons/Bookmark.svg"
-                alt=""
-              />
-            </button>
-          </div>
-        </article>
-      </section>
-      <nav class="nav-bar">
-        <button class="nav-button homefeed-button">
-          <img src="./assets/icons/Feed.svg" alt="" />
-        </button>
-        <button class="nav-button search-button">
-          <img src="./assets/icons/Search.svg" alt="" />
-        </button>
-        <button class="nav-button create-button">
-          <img src="./assets/icons/Plus.svg" alt="" />
-        </button>
-        <button class="nav-button alerts-button">
-          <img src="./assets/icons/Alert.svg" alt="" />
-        </button>
-        <button class="nav-button profile-button">
-          <img src="./assets/icons/Profile.svg" alt="" />
-        </button>
-      </nav>
-    </main>
-  </body>
+          <button class="post-bookmark-button">
+            <img class="post-bookmark" src="./assets/icons/Bookmark.svg" alt="" />
+          </button>
+        </div>
+      </article>
+
+    </section>
+    <nav class="nav-bar">
+      <button class="nav-button homefeed-button">
+        <img src="./assets/icons/Feed.svg" alt="" />
+      </button>
+      <button class="nav-button search-button">
+        <img src="./assets/icons/Search.svg" alt="" />
+      </button>
+      <button class="nav-button create-button">
+        <img src="./assets/icons/Plus.svg" alt="" />
+      </button>
+      <button class="nav-button alerts-button">
+        <img src="./assets/icons/Alert.svg" alt="" />
+      </button>
+      <button class="nav-button profile-button">
+        <img src="./assets/icons/Profile.svg" alt="" />
+      </button>
+    </nav>
+  </main>
+</body>
+
 </html>

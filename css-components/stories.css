@@ -5,11 +5,12 @@
   margin: 27px 24px 24px 24px;
 }
 
-.stories-item {
-  max-height: 10px;
+.stories--item {
+  display: flex;
+  flex-direction: column;
 }
 
-img {
-  height: 30px;
-  width: 30px;
+.stories--item img:first-child {
+  height: 14rem;
+  width: 10rem;
 }

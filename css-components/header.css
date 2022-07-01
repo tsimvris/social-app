@@ -4,3 +4,21 @@ header {
   margin: 60px 24px 0 24px;
   height: 32px;
 }
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+header button {
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: var(--dark-black);
+  border-radius: 50%;
+  border-color: var(--light-gray);
+}
+
+header button svg {
+  background-color: transparent;
+}

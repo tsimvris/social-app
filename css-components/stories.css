@@ -1,8 +1,10 @@
 .stories {
+  padding: 24px;
   display: flex;
+  justify-content: space-around;
   height: 145px;
   width: 330px;
-  margin: 27px 24px 24px 24px;
+  margin: 27px 24px 24px 8px;
 }
 
 .stories--item {

@@ -7,20 +7,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
+  margin-bottom: 32px;
 }
 .post-creator {
-  background-color: green;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-items: space-evenly;
   padding: 0;
-  gap: 2px;
   margin-left: 8px;
 }
 .post-wrapper {
-  background-color: red;
   margin-bottom: 50px;
 }
 .post-header-left {
@@ -28,22 +25,22 @@
   align-items: center;
 }
 .profile-pic {
-  margin-left: 24px;
   width: 32px;
   height: 32px;
   border-radius: 50%;
 }
 .creator-name {
   font-size: 14px;
-  line-height: 16px;
+  _line-height: 16px;
+  _margin-bottom: -14px;
 }
 .post-time {
   font-size: 12px;
-  line-height: 16px;
+  _line-height: 16px;
 }
 .post-options {
   width: 24px;
-  height: 24px;
+  _height: 24px;
   border-radius: 50%;
   margin-right: 24px;
 }

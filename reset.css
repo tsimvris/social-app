@@ -124,6 +124,7 @@ table {
 }
 :root {
   --dark-black: #181a1c;
+  --pure-black: black;
   --social-white: #fff;
   --gray: #323436;
   --light-gray: #727477;

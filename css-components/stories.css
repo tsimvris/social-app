@@ -1,7 +1,7 @@
 .stories {
   display: flex;
-  height: 14.5rem;
-  width: 33rem;
+  height: 145px;
+  width: 330px;
   margin: 27px 24px 24px 24px;
 }
 
@@ -10,7 +10,8 @@
   flex-direction: column;
 }
 
-.stories--item img:first-child {
-  height: 14rem;
-  width: 10rem;
+.content {
+  height: 140px;
+  width: 100px;
+  border-radius: 16px;
 }

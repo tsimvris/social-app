@@ -1,12 +1,11 @@
 .stories {
   display: flex;
-  justify-content: center;
   height: 145px;
   align-items: center;
   gap: 12px;
   width: 327px;
-  overflow: hidden;
   overflow-x: scroll;
+  margin: 0 24px 24px 24px;
 }
 
 .stories--item {

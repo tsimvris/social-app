@@ -2,9 +2,9 @@
 
 .newsfeed-wrapper {
   width: 375px;
-  margin: 0 24px;
 }
 .post-header {
+  margin: 0 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,6 +18,10 @@
   padding: 0;
   margin-left: 8px;
 }
+
+.post-reactions {
+  margin: 0 24px;
+}
 .post-wrapper {
   _border-top: 2px solid var(--gray);
   padding: 24px 0 24px 0;
@@ -26,7 +30,7 @@
 }
 .trenner {
   width: auto;
-  background-color: red;
+  background-color: var(--gray);
   height: 2px;
   z-index: 20;
 }
@@ -41,16 +45,20 @@
 }
 .creator-name {
   font-size: 14px;
-  _line-height: 16px;
-  _margin-bottom: -14px;
+  line-height: 16px;
+  margin-bottom: 2px;
 }
 .post-time {
   font-size: 12px;
-  _line-height: 16px;
+  line-height: 16px;
+  color: var(--light-gray);
 }
 .post-options {
   width: 24px;
-  _height: 24px;
+  height: 24px;
+  background-color: transparent;
   border-radius: 50%;
-  margin-right: 24px;
+}
+.post-content {
+  margin: 16px 24px;
 }

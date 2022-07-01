@@ -21,17 +21,16 @@
 
 .post-reactions {
   margin: 0 24px;
+  display: flex;
+  justify-content: space-between;
 }
 .post-wrapper {
-  _border-top: 2px solid var(--gray);
   padding: 24px 0 24px 0;
-  _border-bottom: 2px solid var(--gray);
-  margin-bottom: 50px;
+  margin-bottom: 16px;
 }
 .trenner {
   width: auto;
   background-color: var(--gray);
-  height: 2px;
   z-index: 20;
 }
 .post-header-left {
@@ -61,4 +60,31 @@
 }
 .post-content {
   margin: 16px 24px;
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+}
+.post-button {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+.post-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+span {
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: 20px;
+}
+.post-image img {
+  min-width: 300px;
+  height: 180px;
 }

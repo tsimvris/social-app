@@ -1,1 +1,49 @@
 @import "./stories.css";
+.newsfeed-wrapper {
+  width: 375px;
+  margin: 0 24px;
+}
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+}
+.post-creator {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: space-evenly;
+  padding: 0;
+  gap: 2px;
+  margin-left: 8px;
+}
+.post-wrapper {
+  background-color: red;
+  margin-bottom: 50px;
+}
+.post-header-left {
+  display: flex;
+  align-items: center;
+}
+.profile-pic {
+  margin-left: 24px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.creator-name {
+  font-size: 14px;
+  line-height: 16px;
+}
+.post-time {
+  font-size: 12px;
+  line-height: 16px;
+}
+.post-options {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 24px;
+}

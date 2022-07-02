@@ -3,4 +3,11 @@
   font-size: 14px;
   font-weight: bold;
   background: transparent;
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+
+header {
+  position: relative;
 }

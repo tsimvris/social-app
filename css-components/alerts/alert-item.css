@@ -1,6 +1,5 @@
 .alert-item {
   display: flex;
-  flex-direction: row;
   column-gap: 20px;
   align-items: center;
   margin-top: 35px;
@@ -10,7 +9,6 @@
 
 .alert-item--read {
   display: flex;
-  flex-direction: row;
   column-gap: 20px;
   align-items: center;
   margin-top: 35px;
@@ -22,13 +20,15 @@
 .alert-icon {
   background-color: var(--gray);
   border-radius: 50%;
-  height: 22px;
-  width: 22px;
-  padding: 12px;
+  padding: 10px;
 }
 
 .alert-text--message {
   font-size: 14px;
+}
+
+.alert-text-message--bold {
+  font-weight: bold;
 }
 
 .alert-text--time {

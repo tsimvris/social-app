@@ -83,7 +83,9 @@
   align-items: center;
   justify-content: space-around;
 }
-span {
+.likes,
+.comments,
+.shares {
   color: #fff;
   font-weight: 600;
   font-size: 12px;

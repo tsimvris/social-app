@@ -1,11 +1,11 @@
 @import "./alert-item.css";
 
-.alert-header {
+.alerts-header {
   color: var(--light-gray);
   font-size: 14px;
   margin-top: 25px;
 }
 
-.alerts {
+.alerts-all {
   margin: 0 24px;
 }

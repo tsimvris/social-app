@@ -5,6 +5,7 @@
   align-items: center;
   margin-top: 35px;
   margin-bottom: 25px;
+  line-height: 1.5;
 }
 
 .alert-item--read {
@@ -15,6 +16,7 @@
   margin-top: 35px;
   margin-bottom: 25px;
   color: var(--light-gray);
+  line-height: 1.5;
 }
 
 .alert-icon {
@@ -27,7 +29,6 @@
 
 .alert-text--message {
   font-size: 14px;
-  padding-bottom: 5px;
 }
 
 .alert-text--time {

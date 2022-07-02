@@ -1,0 +1,10 @@
+@import "./alert-item.css";
+
+.alert-header {
+  color: var(--light-gray);
+  font-size: 16px;
+}
+
+.alerts {
+  margin: 0 24px;
+}

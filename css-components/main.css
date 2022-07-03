@@ -1,9 +1,12 @@
 @import "./stories.css";
+@import "./navbar.css";
+
 .newsfeed-wrapper {
   width: 375px;
-  margin: 0 24px;
+  margin-bottom: 88px;
 }
 .post-header {
+  margin: 0 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,8 +20,21 @@
   padding: 0;
   margin-left: 8px;
 }
+
+.post-reactions {
+  margin: 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
 .post-wrapper {
-  margin-bottom: 50px;
+  padding: 24px 0 24px 0;
+  margin-bottom: 16px;
+}
+.trenner {
+  width: auto;
+  height: 2px;
+  background-color: var(--gray);
+  z-index: 20;
 }
 .post-header-left {
   display: flex;
@@ -31,16 +47,53 @@
 }
 .creator-name {
   font-size: 14px;
-  _line-height: 16px;
-  _margin-bottom: -14px;
+  line-height: 16px;
+  margin-bottom: 2px;
 }
 .post-time {
   font-size: 12px;
-  _line-height: 16px;
+  line-height: 16px;
+  color: var(--light-gray);
 }
 .post-options {
   width: 24px;
-  _height: 24px;
+  height: 24px;
+  background-color: transparent;
   border-radius: 50%;
-  margin-right: 24px;
+}
+.post-content {
+  margin: 16px 24px;
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+}
+.post-content::-webkit-scrollbar {
+  display: none;
+}
+.post-button {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+.post-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.likes,
+.comments,
+.shares {
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: 20px;
+}
+.post-image img {
+  min-width: 300px;
+  height: 180px;
+  border-radius: 16px;
 }

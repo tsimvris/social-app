@@ -4,3 +4,5 @@
 @import "./css-components/search-bar.css";
 @import "./css-components/main.css";
 @import "./css-components/navbar.css";
+@import "./css-components/alerts/header.css";
+@import "./css-components/alerts/main.css";

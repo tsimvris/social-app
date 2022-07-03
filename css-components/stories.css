@@ -1,16 +1,19 @@
 .stories {
-  padding: 24px;
   display: flex;
-  justify-content: space-around;
   height: 145px;
-  width: 330px;
-  margin: 27px 24px 24px 8px;
+  align-items: center;
+  gap: 12px;
+  width: 327px;
+  overflow-x: scroll;
+  margin: 0 24px 24px 24px;
+}
+.stories::-webkit-scrollbar {
+  display: none;
 }
 
 .stories--item {
   display: flex;
   flex-direction: column;
-  margin: 0 12px;
   position: relative;
 }
 
@@ -27,6 +30,6 @@
   width: 32px;
   border-radius: 50%;
   border: 2px solid black;
-  outline: 2px solid #f62e8e;
+  outline: 2px solid #c71f8f;
   /* GRADIENT FRAGEN */
 }

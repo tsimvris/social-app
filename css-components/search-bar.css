@@ -1,0 +1,36 @@
+.search-form-wrapper {
+  background-color: #323436;
+  width: 327px;
+  height: 44px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+}
+
+.search-form-input {
+  font: 14px;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+  background-color: #323436;
+}
+::placeholder {
+  opacity: 0.7;
+  color: #ecebed;
+}
+
+.search-form-submit {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+.search-form-icon {
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}

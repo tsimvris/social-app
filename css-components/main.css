@@ -2,7 +2,8 @@
 @import "./navbar.css";
 
 .newsfeed-wrapper {
-  width: 375px;
+  _width: 375px;
+  width: 100%;
   margin-bottom: 88px;
 }
 .post-header {

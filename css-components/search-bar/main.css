@@ -1,0 +1,58 @@
+.post-wrapper {
+  margin-bottom: 88px;
+  max-width: 375px;
+}
+.h1-search {
+  font-size: 14px;
+  font-size: 14px;
+  margin: 0 24px 88px 24px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  position: absolute;
+  width: 327px;
+  height: 28px;
+  left: 24px;
+  top: 172px;
+  overflow: hidden;
+}
+.filters-option-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 10px;
+  gap: 10px;
+  width: 35px;
+  height: 26px;
+  background: #2e8af7;
+  color: var(--social-white);
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.filters-option-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 10px;
+  gap: 10px;
+  border-radius: 18px;
+  background-color: transparent;
+  width: 60px;
+  height: 26px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--social-white);
+  border: 1px solid var(--light-gray);
+}
+/*posts*/
+
+/*carousel-indicator*/

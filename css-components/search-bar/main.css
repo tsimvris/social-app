@@ -1,6 +1,7 @@
 .post-wrapper {
   margin-bottom: 88px;
-  max-width: 375px;
+  _max-width: 375px;
+  width: 100%;
 }
 .h1-search {
   font-size: 14px;

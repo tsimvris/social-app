@@ -6,3 +6,5 @@
 @import "./css-components/navbar.css";
 @import "./css-components/alerts/header.css";
 @import "./css-components/alerts/main.css";
+@import "./css-components/search-bar/search-bar.css";
+@import "./css-components/search-bar/main.css";
